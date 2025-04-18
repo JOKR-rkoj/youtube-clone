@@ -28,7 +28,7 @@ const Navbar = ({
           className="menu-icon"
           onClick={() => setSidebar((prev) => (prev === false ? true : false))}
         />
-        <Link to="/">
+        <Link to="/youtube-clone">
           <img
             src={logo1}
             alt=""
