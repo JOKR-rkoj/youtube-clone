@@ -43,7 +43,7 @@ const Navbar = ({
           onChange={handleInput}
           placeholder="Search"
         />
-        <Link to={`/search/${input.length && input}`}>
+        <Link to={`/youtube-clone/search/${input.length && input}`}>
           <img
             src={search_icon}
             onClick={() =>

@@ -27,7 +27,7 @@ const Search = ({ input , searchVideos }) => {
      <div className="Search-results">
        {apiData && apiData.map((item,index) => {
         return  <Link key={index}
-                    to={`/video/20/${item.id.videoId}`}
+                    to={`/youtube-clone/video/20/${item.id.videoId}`}
                     className="card"
                   >
                     <img src={item.snippet.thumbnails.medium.url} alt="thumbnail" />
