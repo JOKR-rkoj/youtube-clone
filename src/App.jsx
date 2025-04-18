@@ -12,6 +12,7 @@ function App() {
     <>
      <Navbar setSidebar= {setSidebar} input={input} setInput={setInput} searchVideos= {searchVideos} setSearchVideos= {setSearchVideos}/>
      <Routes>
+     <Route path = '/youtube-clone' element={<Home sidebar = {sidebar}/>} />
      <Route path = '/' element={<Home sidebar = {sidebar}/>} />
      <Route path = '/video/:categoryId/:videoId' element={<Video/>} />
      <Route path = '/search/:keyword' element = {<Search input={input} searchVideos={searchVideos} />} />
